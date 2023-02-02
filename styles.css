@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+.navbar {
+    overflow: hidden;
+    background-color: #444;
+    max-height: 310px;
+}
+.navbar a {
+    font-family: 'Pacifico', cursive;
+    color: #a3d4cf;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 10px;
+}
+.links {
+    justify-content: center;
+    display: flex;
+}
+.navbar h1 {
+    min-height: 215px;
+    max-height: 215px;
+    color: white;
+}
+.logo, .ribon {
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    position: relative;
+    top: -250px;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100px;
+}
+.dropdown .dropbtn {
+    text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: grey;
+}
+.dropdown-content-locations {
+    display: none;
+    position: relative;
+    background-color: grey;
+    min-width: 100px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content-locations a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+}
+.dropdown-content-locations a:hover {
+    opacity: 0.6;
+}
+.show {
+    display: block
+}
+.intro-back {
+    background: url(src/home-background.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.intro {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+}
+.intro h1 {
+    display: flex;
+    justify-content: center;
+    color: #93D4CE;
+    font-family: 'Pacifico', cursive;
+}
+.intro{
+    min-height: auto;
+        /* center page with absolute position */
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 1em;
+    box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+    background: #fffef0;
+}
+.intro ul {
+    text-align: left;
+    list-style-type: none;
+    color: black;
+    font-family: 'Big Shoulders Display', cursive; 
+}
+.intro p{
+    color: black;
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: left;
+}
+.intro img{
+    max-width: 100%;
+    height: auto;
+}
+.intro li{
+    align-items: left;
+}
+.intro h2{
+    text-align: left;
+    color: black;
+    font-family: 'Big Shoulders Display', cursive; 
+}
+#menu-bar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+#menu-bar button {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Big Shoulders Display', cursive;
+    color: black;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+#menu-bar button:hover{
+    background-color: #93d4cd85;
+}
+footer {
+    background-color: #444;
+    min-height: 100px;
+}
+footer p{
+    color: rgb(138, 138, 138);
+    font-size: 24px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 0px;
+}

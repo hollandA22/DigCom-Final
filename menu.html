@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing</title>
+        <meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <script src="index.js"></script>
+        <script src="menu.js"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <h1>
+                <div class="ribon"><img id="ribon" src="src\RIBBONS-BANNERS.png"></div>
+                <div class="logo"><img id="logo" src="src\logo.png"></div>
+                
+            </h1>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="cakeMenu.html">Cakes</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Locations
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content-locations" id="myDropdown">
+                    <a href="https://goo.gl/maps/t79nfbyJvqYyWNPe6" target="_blank">Cedar Falls</a>
+                    <a href="https://goo.gl/maps/xXewXUoB4PeUMAZJA" target="_blank">Waterloo</a>
+                    <a href="https://goo.gl/maps/NX7pMJyFEoLkpXMF6" target="_blank">Waverly</a>
+                    <a href="https://goo.gl/maps/FeQGBBgeRGtoRHFE8" target="_blank">Evansdale</a>
+                </div>
+            </div>
+        </div>
+        <div class="intro-back">
+            <div class="intro">
+                <h1>4 Queens Dairy Cream</h1>
+                <h1>Menu</h1>
+                <div id="menu-bar">
+                    <button id="all-btn">All</button>
+                    <button id="ice-cream-btn">Ice Cream</button>
+                    <button id="flavor-burst-btn">Flavor Bursts</button>
+                    <button id="cones-btn">Cones</button>
+                    <button id="snowstorm-btn">Snowstorms</button>
+                    <button id="snowie-btn">Snowies</button>
+                    <button id="slushie-btn">Slushies</button>
+                    <button id="smoothie-btn">Smoothies</button>
+                    <button id="float-btn">Floats</button>
+                    <button id="toppings-btn">Toppings</button>
+                    <button id="sundae-btn">Sundaes</button>
+                    <button id="freezer-btn">Freezer</button>
+                </div>
+                <div id="menu-ice-cream-flavors">
+                    <h2>Ice Cream Flavors</h2>
+                    <ul>
+                        <li>Vanilla</li>
+                        <li>Chocolate</li>
+                        <li>Chocolate Twist</li>
+                        <li>Strawberry</li>
+                        <li>Strawberry Twist</li>
+                        <li>Black Raspberry</li>
+                        <li>Black Raspberry Twist</li>
+                        <li>Orange Sherbert</li>
+                        <li>Orange Twist</li>
+                    </ul>>
+                </div>
+                <div id="menu-flavor-burst">
+                    <h2>Flavor Burst Flavors</h2>
+                    <ul>
+                        <li>Apple</li>
+                        <li>Black Cherry</li>
+                        <li>Bubble Gum</li>
+                        <li>Butter Pecan</li>
+                        <li>Watermelon</li>
+                        <li>Blue Goo</li>
+                        <li>Raspberry</li>
+                    </ul>>
+                </div>
+                <div id="menu-cones">
+                    <h2>Cones</h2>
+                    <ul>
+                        <li>Original Cake Cone</li>
+                        <li>Sugar Cone</li>
+                        <li>Homemade Waffle Cone</li>
+                        <li>Chocolate Dip Cone</li>
+                        <li>Cherry Dip Cone</li>
+                        <li>Butterscotch Dip Cone</li>
+                        <li>Krinch Cone</li>
+                        <li>Sprinkle Cone *</li>
+                    </ul>
+                </div>
+                <div id="menu-snowstorm">
+                    <h2>Snowstorm Flavors</h2>
+                    <ul>
+                        <li>Apple Pie (Seasonal)</li>
+                        <li>Banana Pudding</li>
+                        <li>Banana Split</li>
+                        <li>Brickle</li>
+                        <li>Brownie</li>
+                        <li>Butterfinger</li>
+                        <li>Cappuchino</li>
+                        <li>Cheesecake</li>
+                        <li>Cherry Nut</li>
+                        <li>Cherry Pie</li>
+                        <li>Chocolate Cherry</li>
+                        <li>Coconut & Almond</li>
+                        <li>Cookie Dough</li>
+                        <li>Frappe</li>
+                        <li>Fruity Pebbles</li>
+                        <li>German Chocolate</li>
+                        <li>Grasshopper</li>
+                        <li>Gummy Bear</li>
+                        <li>Heath</li>
+                        <li>Lemon Pie</li>
+                        <li>M&M Peanut</li>
+                        <li>M&M Plain</li>
+                        <li>Mint Chocolate</li>
+                        <li>Monster Cookie</li>
+                        <li>Nerds</li>
+                        <li>Nestle Crunch</li>
+                        <li>Nut Roll</li>
+                        <li>Nutter Butter</li>
+                        <li>Oreo</li>
+                        <li>Peanut Brittle</li>
+                        <li>Pecan Cluster</li>
+                        <li>Pumpkin Pie (Seasonal)</li>
+                        <li>Reeses Peanut Butter Cup</li>
+                        <li>Reeses Pieces</li>
+                        <li>Scotcharoo</li>
+                        <li>Skittle</li>
+                        <li>S’more</li>
+                        <li>Snickers</li>
+                        <li>Surprise</li>
+                        <li>Tropical</li>
+                        <li>Turtle</li>
+                        <li>Whopper</li>
+                    </ul>
+                </div>
+                <div id="menu-snowie">
+                    <h2>Snowie Flavors</h2>
+                    <ul>
+                        <li>Black Cherry</li>
+                        <li>Blue Raspberry</li>
+                        <li>Cherry</li>
+                        <li>Cotton Candy</li>
+                        <li>Daiquiri</li>
+                        <li>Grape</li>
+                        <li>Green Apple</li>
+                        <li>Hawaiian Tropic</li>
+                        <li>Lemon Lime</li>
+                        <li>Margarita</li>
+                        <li>Orange</li>
+                        <li>Pina Colada</li>
+                        <li>Pink Bubble Gum</li>
+                        <li>Pink Lemon Sour</li>
+                        <li>Rock and Roll</li>
+                        <li>Sour Grape</li>
+                        <li>Strawberry</li>
+                        <li>Stawberry Daiquiri</li>
+                        <li>Strawberry Margarita</li>
+                        <li>Tigers Blood</li>
+                        <li>Toxic Waste</li>
+                        <li>Watermelon</li>
+                        <li>Sugar Free Cherry</li>
+                        <li>Sugar Free Grape</li>
+                        <li>Sugar Free Hawaiian Tropic</li>
+                    </ul>
+                </div>
+                <div id="menu-slushies">
+                    <h2>Slushie Flavors</h2>
+                    <ul>
+                        <li>Blue Raspberry</li>
+                        <li>Cherry</li>
+                        <li>Grape</li>
+                        <li>Lemon Lime</li>
+                        <li>Orange</li>
+                        <li>Stawberry</li>
+                        <li>Stawberry Kiwi</li>
+                        <li>Watermelon</li>
+                    </ul>
+                </div>
+                <div id="menu-smoothies">
+                    <h2>Smoothies</h2>
+                    <ul>
+                        <li>Black Raspberry</li>
+                        <li>Cherry</li>
+                        <li>Pineapple</li>
+                        <li>Red Raspberry</li>
+                        <li>Strawberry</li>
+                        <li>Strawberry Banana</li>
+                    </ul>
+                </div>
+                <div id="menu-floats">
+                    <h2>Floats</h2>
+                    <ul>
+                        <li>1919 Rootbeer</li>
+                        <li>Pepsi</li>
+                        <li>Mountain Dew</li>
+                        <li>Diet Pepsi</li>
+                        <li>Slish Floats</li>
+                    </ul>
+                </div>
+                <div id="menu-toppings">
+                    <h2>Toppings</h2>
+                    <p>Applyable for Malts, Shakes and Sundaes</p>
+                    <ul>
+                        <li>Banana</li>
+                        <li>Black Raspberry</li>
+                        <li>Blueberry</li>
+                        <li>Butterscotch</li>
+                        <li>Caramel</li>
+                        <li>Cherry</li>
+                        <li>Chocolate</li>
+                        <li>Crème De Mint</li>
+                        <li>Fudge</li>
+                        <li>Marshmallow</li>
+                        <li>Peach</li>
+                        <li>Peanut Butter</li>
+                        <li>Pineapple</li>
+                        <li>Red Raspberry</li>
+                        <li>Strawberry</li>
+                        <li>Turtle</li>
+                    </ul>
+                </div>
+                <div id="menu-sundaes">
+                    <h2>Sundaes</h2>
+                    <ul>
+                        <li>Banana Split</li>
+                        <li>Black Forest</li>
+                        <li>Brownie Treat</li>
+                        <li>Fruit Parfait</li>
+                        <li>Hot Fudge Peanut Parfait</li>
+                        <li>Peaches & Cream</li>
+                        <li>Strawberry Shortcake</li>
+                        <li>Turtle</li>
+                        <li>Waffle Bowl</li>
+                    </ul>
+                </div>
+                <div id="menu-freezer-items">
+                    <h2>Freezer Items</h2>
+                    <p>Take them home to enjoy!</p>
+                    <ul>
+                        <li>Quarts - Ice Cream</li>
+                        <li>Butterscotch Doozie Bar</li>
+                        <li>Chocolate Doozie Bar</li>
+                        <li>Cherry Doozie Bar</li>
+                        <li>Cookies (Vanilla, Chocolate, Strawberry)</li>
+                        <li>Fudge Nut Bar</li>
+                        <li>Turtle Bar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Created by Alex Holland for the purpose of improving current website.</p>
+            <p>Follow us on facebook here: <a href="https://www.facebook.com/cedarfalls4q/"><img src="src\f_Logo_CMYK-C_Blue.png" alt="Facebook Icon"></a></p>
+        </footer>
+        <script src="index.js"></script>
+        <script src="menu.js"></script>
+    </body>
+</html>
